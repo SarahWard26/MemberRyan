@@ -1,5 +1,6 @@
 package com.example.sarahward.memberryan;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -21,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         randyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, ContentActivity.class);
+                startActivity(intent);
             }
         });
     }
-
 }
