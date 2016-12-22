@@ -1,4 +1,4 @@
-package com.example.sarahward.memberryan;
+package com.sarahward.memberryan;
 
 import android.content.Intent;
 import android.os.Bundle;

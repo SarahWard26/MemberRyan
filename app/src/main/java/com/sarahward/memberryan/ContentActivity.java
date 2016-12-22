@@ -1,4 +1,4 @@
-package com.example.sarahward.memberryan;
+package com.sarahward.memberryan;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
