@@ -113,10 +113,10 @@ public class ContentActivity extends AppCompatActivity {
             toDisplay = getResources().getString(R.string.jackfive);
         } else if (weekOfYear == 39) {
             toDisplay = getResources().getString(R.string.jacksix);
-        } else if (weekOfYear == 35) {
+        } else if (weekOfYear == 51) {
             toDisplay = getResources().getString(R.string.jackseven);
         } else {
-            toDisplay = "Wahoo";
+            toDisplay = "Merry christmas, ss";
         }
 
         show.setText(toDisplay);
